@@ -1,6 +1,7 @@
 .DS_Store
 /server/node_modules/
 /client/node_modules/
+/client/.yarn/cache
 /client/yarn.lock
 /client/ios/build
 /client/ios/Podfile.lock
