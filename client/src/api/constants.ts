@@ -1,2 +1,2 @@
-export const API_HOST = 'http://192.168.1.183:3000';
+export const API_HOST = '<YOUR_HOST_URL>:<PORT>';
 export const GET_SHIPS = '/ships';
