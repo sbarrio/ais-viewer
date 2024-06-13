@@ -66,20 +66,20 @@ Due to time considerations there have been many areas that should be considered 
 
 ### Setup and running
 
-0.- Clone the repository whrever you like. You'll see the folder contains 3 folders: `db`, `server` and `client`.
+- Clone the repository whrever you like. You'll see the folder contains 3 folders: `db`, `server` and `client`.
 
 #### Backend
 
-1.- Download [Postgres app](https://postgresapp.com/), create a new database by running `/db/create.sql` script. Set up credentials as seen fit. You can jsut do the same on your existing PostgreSQL installation, be it via console or Visual GUI app.
-2.- Navigate to `/server` and run `npm install`.
-3.- Set up database configuration on `/server/constants.js` under the `DB Config` section.
-4.- Run `node app.js` to launch the server.
-5.- If everything worked fine you should see the server listening the configured port and a message stating the current bounding box subscriptions being sent via the socket every few seconds.
+- Download [Postgres app](https://postgresapp.com/), create a new database by running `/db/create.sql` script. Set up credentials as seen fit. You can jsut do the same on your existing PostgreSQL installation, be it via console or Visual GUI app.
+- Navigate to `/server` and run `npm install`.
+- Set up database configuration on `/server/constants.js` under the `DB Config` section.
+- Run `node app.js` to launch the server.
+- If everything worked fine you should see the server listening the configured port and a message stating the current bounding box subscriptions being sent via the socket every few seconds.
 
 #### Client
 
-1.- Navigate to `/client` and run `yarn install`
-2.- navigate to `/client/ios` folder and run `pod install`
-3.- Go to `/client/src/api/constants.ts` and fill in the `API_HOST` constant with the url and port on which you have started the server.
-4.- Run `yarn start` to start the metro server (if running on debug mode). Make sure you have at least one simulator/real device connected available.
-5.- Run `yarn ios` or `yarn android` to launch the app. Alternatively you can launch the app as well from XCode or Android Studio.
+- Navigate to `/client` and run `yarn install`
+- navigate to `/client/ios` folder and run `pod install`
+- Go to `/client/src/api/constants.ts` and fill in the `API_HOST` constant with the url and port on which you have started the server.
+- Run `yarn start` to start the metro server (if running on debug mode). Make sure you have at least one simulator/real device connected available.
+- Run `yarn ios` or `yarn android` to launch the app. Alternatively you can launch the app as well from XCode or Android Studio.
