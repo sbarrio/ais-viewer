@@ -1,0 +1,12 @@
+.DS_Store
+/server/node_modules/
+/client/node_modules/
+/client/yarn.lock
+/client/ios/build
+/client/ios/Podfile.lock
+/client/ios/Pods
+/client/ios/.xcode.env
+/client/ios/.xcode.env.local
+/client/.yarn
+/client/vendor
+/client/Gemfile.lock
